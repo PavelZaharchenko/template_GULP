@@ -1,0 +1,48 @@
+.head-popup {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 15px 0;
+	background: fadeout(@clrLightGrey, 30%);
+	color: @clrSmokyGrey;
+	user-select: none;
+	opacity: 0;
+	transition: .5s;
+	&:hover {
+		opacity: 1;
+	} 
+}
+.popup-img {
+	width: 35px;
+	height: 50px;
+	float: left;
+	margin-right: 20px;
+}
+.popuap-title  {
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.popup-discription {
+	font-size: 12px;
+	width: 750px;
+}
+
+@media @tablets {
+	.container {
+		height: 50px;
+	}
+	.popuap-title {
+		font-size: 12px;
+	}
+	.popup-discription {
+		font-size: 10px;
+		width: 600px;
+	}
+}
+@media @mobile {
+ 	.head-popup {
+ 		display: none;
+ 	}
+}
