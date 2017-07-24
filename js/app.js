@@ -1,3 +1,5 @@
+'use strict';
+
 $(function () {
 
 	//contunue-project
@@ -12,7 +14,7 @@ $(function () {
 	})
 
 	$('.zoom-icon').click(function(){
-		var imgLink = $(this).parent().prev('.project-photo').attr('src');
+		let imgLink = $(this).parent().prev('.project-photo').attr('src');
 		$('.fs-popup-img').attr('src', imgLink);
 		$('.full-screen-popup').addClass('open');
 	})
@@ -24,8 +26,8 @@ $(function () {
 	// Scrolling
 	$('.nav-item a').click(function(e) {
 		e.preventDefault();
-		var thisEl = $(this).attr('href');
-		var top = $(thisEl).offset().top;
+		let thisEl = $(this).attr('href');
+		let top = $(thisEl).offset().top;
 		$('body,html').animate({scrollTop: top}, 500);
 	});
 	$('.mobile-nav').click(function() {

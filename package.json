@@ -1,26 +1,20 @@
 {
-  "name": "templatemeathceb_ga-master",
+  "name": "templateMeathceb_ga-master",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelZaharchenko/template_GULP.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-uglify": "^3.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-jshint": "^2.0.4",
-    "gulp-jslint": "^1.0.10",
-    "gulp-less": "^3.3.2",
-    "gulp-livereload": "^3.8.1",
-    "gulp-watch": "^4.3.11",
+  "bugs": {
+    "url": "https://github.com/PavelZaharchenko/template_GULP/issues"
   },
-  "dependencies": {
-    "fotorama": "^4.6.4",
-    "jquery": "^3.2.1"
-  }
+  "homepage": "https://github.com/PavelZaharchenko/template_GULP#readme"
 }
